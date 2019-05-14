@@ -1,11 +1,14 @@
 package eclipse;
 
 public class Child1 extends Parent1 {
-private int studentNo;
+private String name;
 	
-public Child1(String name, int studentNo) {
-		super(name);
-		this.studentNo = studentNo;
+public Child1() {
+		this("ȫ�浿");
+		System.out.println("Child1() call");
 	}
-
+public Child1(String name) {
+	this.name = name;
+	System.out.println("Child1(String name) call");
+}
 }
