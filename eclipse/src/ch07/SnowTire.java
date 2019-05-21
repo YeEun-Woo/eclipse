@@ -1,6 +1,4 @@
-package ch06;
-
-import ch07.Tire;
+package ch07;
 
 public class SnowTire extends Tire{
 @Override
