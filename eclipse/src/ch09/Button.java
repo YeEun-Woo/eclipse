@@ -5,10 +5,12 @@ OnClickListener listener;
 	void setOnClickListener(OnClickListener listener){
 		this.listener = listener;
 	}
-void touch() {
+
+	void touch() {
 	listener.onClick();
 }
-interface OnClickListener{
+
+	interface OnClickListener{
 	void onClick();
 }
 }
