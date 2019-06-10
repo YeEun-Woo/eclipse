@@ -2,9 +2,10 @@ package ch11;
 
 public class Car {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public String model;
+	
+	public Car(String model) {
+		this.model = model;
 	}
 
 }
